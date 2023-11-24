@@ -2,6 +2,10 @@
 @use "attribute.module.scss";
 
 .about {
+  img {
+    height: auto;
+  }
+
   .banner {
     position: relative;
     height: 30rem;

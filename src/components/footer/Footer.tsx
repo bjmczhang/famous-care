@@ -20,6 +20,9 @@ import EmailIcon from "@mui/icons-material/Email";
 
 import style from "@/style/footer.module.scss";
 import Link from "next/link";
+import Image from "next/image";
+
+import logoWhite from "/public/images/logo-white.svg";
 
 type contact = {
   icon: React.ReactNode;
@@ -51,7 +54,7 @@ const Footer = () => {
       <Container>
         <Grid container spacing={5}>
           <Grid item md={4} sm={6} xs={12} className={style.footer__column1}>
-            <img src="images/logo-white.svg" alt="Logo Brand" />
+            <Image src={logoWhite} alt="Logo Brand" />
             <Typography className={style.footer__column1__paragraph}>
               At <span>Famous Care</span>, we firmly believe that every
               individual, regardless of their abilities, deserves the

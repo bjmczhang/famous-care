@@ -2,8 +2,14 @@ import { Box, Typography, Container, Grid, Divider } from "@mui/material";
 import style from "@/style/home.module.scss";
 import Link from "next/link";
 
+import img1 from "/public/images/service_01.jpg";
+import img2 from "/public/images/service_02.jpg";
+import img3 from "/public/images/service_03.jpg";
+import Image from "next/image";
+import { StaticImageData } from "next/image";
+
 type serviceItem = {
-  image: string;
+  image: StaticImageData;
   title: string;
   body: string;
 };
@@ -11,17 +17,17 @@ type serviceItem = {
 const Service = () => {
   const serviceItem: serviceItem[] = [
     {
-      image: "images/service_01.jpg",
+      image: img1,
       title: "Assist Personal Activity High",
-      body: "At Famous Care, we offer personalized assistance with activities of daily living, including personal hygiene, dressing, grooming, and feeding. We understand the challenges you face, and we're here to help.",
+      body: "At Famous Care, we offer personalized assistance with activities of daily living, including personal hygiene, dressing, grooming, and feeding. We understand the challenges you face, and we`&apos;`re here to help.",
     },
     {
-      image: "images/service_02.jpg",
+      image: img2,
       title: "Assist-Life Stage, Transition",
-      body: "Our team provides life transition planning, mentoring, peer support, and individual skill development. We assist with decision-making, daily planning, and budgeting, ensuring you're prepared for the journey ahead.",
+      body: "Our team provides life transition planning, mentoring, peer support, and individual skill development. We assist with decision-making, daily planning, and budgeting, ensuring you`&apos;`re prepared for the journey ahead.",
     },
     {
-      image: "images/service_03.jpg",
+      image: img3,
       title: "Assist-Travel/Transport",
       body: "Our safe and convenient transport services make it easy for you to reach work, school, shopping centers, medical appointments, and social outings. Choose from weekly or daily trips for greater mobility and independence.",
     },
@@ -52,7 +58,7 @@ const Service = () => {
               className={style.home__service__item}
             >
               <Box className={style.home__service__item__mediaBox}>
-                <img src={item.image} />
+                <Image src={item.image} alt="" />
               </Box>
               <Box className={style.home__service__item__infoBox}>
                 <Typography

@@ -2,6 +2,10 @@
 @use "attribute.module.scss";
 
 .home {
+  img {
+    height: auto;
+  }
+
   .homeHero {
     background-size: cover;
     background-position: center;
@@ -70,6 +74,7 @@
         .home__service__item__mediaBox {
           img {
             width: 100%;
+            height: auto;
             display: block;
           }
         }

@@ -2,6 +2,11 @@ import { Box, Button, Grid, Typography, Container } from "@mui/material";
 import style from "@/style/home.module.scss";
 
 import SendIcon from "@mui/icons-material/Send";
+import Image from "next/image";
+import image1 from "/public/images/Image_20231030201916.jpg";
+import image2 from "/public/images/Image_20231030202001.jpg";
+import image3 from "/public/images/Image_20231030201948.jpg";
+import image4 from "/public/images/Image_20231030201953.jpg";
 
 const About = () => {
   return (
@@ -9,11 +14,7 @@ const About = () => {
       <Container maxWidth="lg">
         <Grid container alignItems="center">
           <Grid item md={6} xs={12} className={style.home__about__left}>
-            <img
-              className={style.home__about__image}
-              src="\images\Image_20231030201916.jpg"
-              alt=""
-            />
+            <Image className={style.home__about__image} src={image1} alt="" />
           </Grid>
           <Grid item md={6} xs={12} className={style.home__about__right}>
             <Typography
@@ -46,8 +47,8 @@ const About = () => {
               Our team consists of highly experienced and passionate individuals
               who share a common goal: to empower, enrich, and enhance the lives
               of those we serve. We firmly believe that disability should never
-              be a barrier to leading a fulfilling life, and it's this belief
-              that drives our every action.
+              be a barrier to leading a fulfilling life, and it`&apos;`s this
+              belief that drives our every action.
             </Typography>
             {/* <Button
               endIcon={<SendIcon />}
@@ -83,8 +84,8 @@ const About = () => {
             >
               Our mission is clear - to provide unwavering support,
               encouragement, and care to individuals with disabilities,
-              fostering their independence, and enabling them to embrace life's
-              opportunities with confidence.
+              fostering their independence, and enabling them to embrace
+              life`&apos;`s opportunities with confidence.
             </Typography>
 
             {/* <Button
@@ -95,20 +96,12 @@ const About = () => {
             </Button> */}
           </Grid>
           <Grid item md={6} xs={12} className={style.home__about__left}>
-            <img
-              className={style.home__about__image}
-              src="\images\Image_20231030201948.jpg"
-              alt=""
-            />
+            <Image className={style.home__about__image} src={image3} alt="" />
           </Grid>
         </Grid>
         <Grid container alignItems="center">
           <Grid item md={6} xs={12} className={style.home__about__left}>
-            <img
-              className={style.home__about__image}
-              src="\images\Image_20231030201953.jpg"
-              alt=""
-            />
+            <Image className={style.home__about__image} src={image4} alt="" />
           </Grid>
           <Grid item md={6} xs={12} className={style.home__about__right}>
             <Typography
@@ -193,11 +186,7 @@ const About = () => {
             </Button> */}
           </Grid>
           <Grid item md={6} xs={12} className={style.home__about__left}>
-            <img
-              className={style.home__about__image}
-              src="\images\Image_20231030202001.jpg"
-              alt=""
-            />
+            <Image className={style.home__about__image} src={image2} alt="" />
           </Grid>
         </Grid>
       </Container>
