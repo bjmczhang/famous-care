@@ -33,15 +33,15 @@ type props = {
   setOpenDrawer: Dispatch<SetStateAction<boolean>>;
 };
 
-const DrawerNav = (props: props, index: number) => {
+const DrawerNav = (props: props) => {
   const iconItemDrawer = [
-    <HomeIcon key={index} />,
-    <InfoIcon key={index} />,
-    <SupportAgentIcon key={index} />,
-    <BookIcon key={index} />,
-    <AccountTreeIcon key={index} />,
-    <ArticleIcon key={index} />,
-    <ContactsIcon key={index} />,
+    <HomeIcon key="home" />,
+    <InfoIcon key="info" />,
+    <SupportAgentIcon key="support" />,
+    <BookIcon key="book" />,
+    <AccountTreeIcon key="account" />,
+    <ArticleIcon key="article" />,
+    <ContactsIcon key="contacts" />,
   ];
 
   return (
