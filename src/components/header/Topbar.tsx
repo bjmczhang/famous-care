@@ -9,12 +9,12 @@ import PinterestIcon from "@mui/icons-material/Pinterest";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import EmailIcon from "@mui/icons-material/Email";
 
-const Topbar = () => {
+const Topbar = (index: number) => {
   const socialIcon = [
-    <FacebookIcon className={style.topbarIcon} />,
-    <TwitterIcon className={style.topbarIcon} />,
-    <InstagramIcon className={style.topbarIcon} />,
-    <PinterestIcon className={style.topbarIcon} />,
+    <FacebookIcon className={style.topbarIcon} key={index} />,
+    <TwitterIcon className={style.topbarIcon} key={index} />,
+    <InstagramIcon className={style.topbarIcon} key={index} />,
+    <PinterestIcon className={style.topbarIcon} key={index} />,
   ];
 
   return (
