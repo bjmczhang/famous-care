@@ -1,0 +1,149 @@
+@use "responsive.module.scss";
+@use "attribute.module.scss";
+
+.home {
+  .homeHero {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5rem;
+    position: relative;
+
+    .homeHeroTitle {
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 32px;
+
+      @include responsive.Responsive(md) {
+        font-size: 48px;
+      }
+    }
+
+    .homeHeroBody {
+      display: none;
+      text-align: center;
+      margin-bottom: 2rem;
+
+      @include responsive.Responsive(md) {
+        display: block;
+      }
+    }
+
+    .homeHeroBtn1 {
+      @include attribute.btn(
+        attribute.$secondary-color,
+        attribute.$secondary-color-hover
+      );
+    }
+    .homeHeroBtn2 {
+      @include attribute.btn(
+        attribute.$primary-color,
+        attribute.$primary-color-hover
+      );
+    }
+  }
+
+  .homeService {
+    .home__service__heading {
+      @extend .home__service__subHeading;
+      @extend %section__title;
+    }
+    .home__service__subHeading {
+      margin-top: 2rem;
+    }
+    .home__service__list {
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+      .home__service__item {
+        position: relative;
+        overflow: hidden;
+        &:hover {
+          .home__service__item__infoBox {
+            transform: translateY(0);
+          }
+        }
+        .home__service__item__mediaBox {
+          img {
+            width: 100%;
+            display: block;
+          }
+        }
+        .home__service__item__infoBox {
+          position: absolute;
+          left: 40px;
+          top: 40px;
+          bottom: 0;
+          background: rgba(43, 63, 73, 0.9);
+          padding: 20px;
+          // height: 100%;
+          border-left: 0.5rem solid attribute.$secondary-color;
+          transition: all 0.3s ease;
+          transform: translateY(78%);
+          color: white;
+          .home__service__item__infoBox__title {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            line-height: 2;
+          }
+          .home__service__item__infoBox__link {
+            color: attribute.$secondary-color;
+            text-decoration: none;
+            p {
+              margin-top: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .homeAbout {
+    padding: 0 5rem;
+    margin: 3rem 0;
+    .home__about__left {
+      margin: 3rem 0;
+      .home__about__image {
+        width: 100%;
+        display: block;
+      }
+    }
+    .home__about__right {
+      padding-left: 3rem;
+      margin: 3rem 0;
+      .home__about__right__title {
+        font-weight: bold;
+      }
+      .home__about__right__subTitle {
+        color: attribute.$secondary-color;
+        margin-top: 2rem;
+      }
+      .home__about__right__body {
+        @extend .home__about__right__subTitle;
+        color: attribute.$ternary-color;
+        span {
+          font-weight: 900;
+          color: attribute.$ternary-color-hover;
+          font-size: 18px;
+        }
+      }
+      .home__about__right__btn {
+        @extend .home__about__right__subTitle;
+        @include attribute.btn(
+          attribute.$secondary-color,
+          attribute.$secondary-color-hover
+        );
+      }
+    }
+  }
+}
+
+.invert__left {
+  padding-left: 0 !important;
+  padding-right: 3rem !important;
+}

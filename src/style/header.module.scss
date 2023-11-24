@@ -1,0 +1,242 @@
+@use "responsive.module.scss";
+@use "attribute.module.scss";
+
+@keyframes slideFromTopMd {
+  0% {
+    top: -100px;
+  }
+  100% {
+    top: -40px;
+  }
+}
+
+@keyframes slideFromTop {
+  0% {
+    top: -100px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+%flex-center-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scrollToTop {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 1;
+}
+
+// navbar
+
+.appbar {
+  background-color: white;
+  height: 7rem;
+
+  .navbar {
+    @extend %flex-center-between;
+
+    height: 100%;
+
+    .navbarLogoBrand {
+      margin-left: 2rem;
+      max-width: 180px;
+
+      @include responsive.Responsive(md) {
+        margin-left: 4rem;
+      }
+
+      img {
+        max-width: 180px;
+        height: auto;
+      }
+    }
+
+    .navbarLinks {
+      display: none;
+      gap: 3rem;
+      margin: auto 2rem;
+
+      a {
+        text-decoration: none;
+
+        .navbarLink {
+          color: attribute.$text-color;
+          font-weight: semibold;
+          font-size: 1rem;
+          padding: 43px 0;
+          border-bottom: 3px solid transparent;
+          transition: all 0.3s ease;
+
+          &:hover {
+            font-weight: bold;
+            color: attribute.$primary-color;
+            border-bottom: 3px solid attribute.$primary-color;
+          }
+        }
+      }
+
+      @include responsive.Responsive(md) {
+        display: flex;
+      }
+    }
+
+    .navbarBtn {
+      display: none;
+      margin-right: 4rem;
+      @include attribute.btn(
+        attribute.$secondary-color,
+        attribute.$secondary-color-hover
+      );
+
+      @include responsive.Responsive(md) {
+        display: flex;
+      }
+    }
+
+    .navbarMenuBtn {
+      margin-right: 2rem;
+      background-color: attribute.$ternary-color-hover;
+      color: white;
+      display: flex;
+      @include responsive.Responsive(md) {
+        display: none;
+      }
+    }
+  }
+}
+
+// drawer
+
+.drawer {
+  .drawerList {
+    background-color: attribute.$ternary-color-hover;
+    width: 100vw;
+    height: 100vh;
+
+    .drawerTop {
+      @extend %flex-center-between;
+      padding: 0.3rem 0rem;
+
+      img {
+        width: 180px;
+        height: auto;
+      }
+
+      .drawerCloseIcon {
+        color: white;
+        font-size: 3rem;
+        cursor: pointer;
+        &:hover {
+          color: attribute.$primary-color;
+        }
+      }
+    }
+
+    .drawerItemBtn {
+      padding: 1rem;
+
+      .drawerItemIcon {
+        color: white;
+      }
+
+      .drawerItemText {
+        color: white;
+      }
+
+      &:hover {
+        background-color: attribute.$ternary-color;
+      }
+    }
+
+    .drawerDivider {
+      margin: 1rem 0;
+      background-color: attribute.$ternary-color;
+    }
+  }
+}
+
+// back to top button
+
+.backToTop {
+  width: 48px;
+  height: 48px;
+  border-radius: 0;
+  background-color: attribute.$primary-color;
+  color: white;
+  box-shadow: none;
+
+  &:hover {
+    background-color: attribute.$primary-color-hover;
+  }
+}
+
+// topbar
+
+.appbarTop {
+  background-color: attribute.$primary-color;
+  padding: 0 4rem;
+
+  .topbar {
+    @extend %flex-center-between;
+    display: none;
+
+    .topbarSocialBtn {
+      border-radius: 0;
+
+      .topbarIcon {
+        color: white;
+      }
+
+      &:hover {
+        background-color: white;
+
+        .topbarIcon {
+          color: attribute.$primary-color;
+        }
+      }
+    }
+    @include responsive.Responsive(md) {
+      display: flex;
+    }
+  }
+}
+
+// 在 style.module.scss 中修改以下样式
+
+.navbarLinkWrapper {
+  position: relative;
+}
+
+.servicesSubMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff; // 你可以根据需要调整背景颜色
+  border: 1px solid #ccc; // 你可以根据需要调整边框样式
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // 你可以根据需要调整阴影样式
+  padding: 8px;
+  z-index: 1000;
+  display: none; // 初始状态隐藏
+}
+
+.navbarLinks:hover .servicesSubMenu {
+  display: flex; // 鼠标悬浮时显示
+}
+
+.subMenuLink {
+  padding: 8px;
+  text-decoration: none;
+  color: #333; // 你可以根据需要调整文本颜色
+  cursor: pointer;
+  &:hover {
+    background-color: #f0f0f0; // 你可以根据需要调整鼠标悬停时的背景颜色
+  }
+}

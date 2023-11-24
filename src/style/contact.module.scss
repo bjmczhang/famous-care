@@ -1,0 +1,76 @@
+@use "responsive.module.scss";
+@use "attribute.module.scss";
+
+.contact {
+  .banner {
+    position: relative;
+    height: 30rem;
+    background-color: black;
+
+    overflow: hidden;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url("/images/Image_20231030202001.jpg");
+
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      filter: opacity(0.5) blur(4px);
+    }
+
+    .bannerTitle {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      color: white;
+      font-weight: 900;
+    }
+  }
+}
+
+.homeAbout {
+  padding: 0 5rem;
+  margin: 3rem 0;
+  .home__about__left {
+    margin: 3rem 0;
+    .home__about__image {
+      width: 100%;
+      display: block;
+    }
+  }
+  .home__about__right {
+    padding-left: 3rem;
+    margin: 3rem 0;
+    .home__about__right__title {
+      font-weight: bold;
+    }
+    .home__about__right__subTitle {
+      color: attribute.$secondary-color;
+      margin-top: 2rem;
+    }
+    .home__about__right__body {
+      @extend .home__about__right__subTitle;
+      color: attribute.$ternary-color;
+      span {
+        font-weight: 900;
+        color: attribute.$ternary-color-hover;
+        font-size: 18px;
+      }
+    }
+    .home__about__right__btn {
+      @extend .home__about__right__subTitle;
+      @include attribute.btn(
+        attribute.$secondary-color,
+        attribute.$secondary-color-hover
+      );
+    }
+  }
+}
