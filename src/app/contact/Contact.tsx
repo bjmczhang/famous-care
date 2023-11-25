@@ -15,6 +15,9 @@ import EmailIcon from "@mui/icons-material/Email";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import Link from "next/link";
+import Image from "next/image";
+
+import contactImg from "/public/images/Image_20231030201956.jpg";
 
 type contact = {
   icon: React.ReactNode;
@@ -49,13 +52,15 @@ const Contact = () => {
         </Typography>
       </Box>
       <Container>
-        <Grid container alignItems="center">
+        <Grid container alignItems="center" className={style.contactGrid}>
           <Grid item md={6} xs={12}>
-            11111
+            <Image src={contactImg} alt="" />
           </Grid>
-          <Grid item md={4} sm={6} xs={12} className={style.footer__column4}>
-            <Typography variant="h5">Contact Info</Typography>
-            <Divider className={style.footer__divider} />
+          <Grid item md={4} sm={6} xs={12} className={style.contactInfo}>
+            <Typography variant="h5" className={style.contactInfoTitle}>
+              Contact Info
+            </Typography>
+            <Divider className={style.contactInfoDiv} />
             <Stack spacing={3}>
               {contacts.map((contact: contact, index: number) => (
                 <Stack

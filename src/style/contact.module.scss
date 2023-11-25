@@ -36,41 +36,21 @@
   }
 }
 
-.homeAbout {
-  padding: 0 5rem;
-  margin: 3rem 0;
-  .home__about__left {
-    margin: 3rem 0;
-    .home__about__image {
-      width: 100%;
-      display: block;
-    }
+.contactGrid {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: space-between;
+
+  img {
+    width: 100%;
+    height: auto;
   }
-  .home__about__right {
-    padding-left: 3rem;
-    margin: 3rem 0;
-    .home__about__right__title {
-      font-weight: bold;
-    }
-    .home__about__right__subTitle {
-      color: attribute.$secondary-color;
-      margin-top: 2rem;
-    }
-    .home__about__right__body {
-      @extend .home__about__right__subTitle;
-      color: attribute.$ternary-color;
-      span {
-        font-weight: 900;
-        color: attribute.$ternary-color-hover;
-        font-size: 18px;
-      }
-    }
-    .home__about__right__btn {
-      @extend .home__about__right__subTitle;
-      @include attribute.btn(
-        attribute.$secondary-color,
-        attribute.$secondary-color-hover
-      );
-    }
+
+  .contactInfoTitle {
+    margin-top: 2rem;
+  }
+
+  .contactInfoDiv {
+    margin: 2rem 0;
   }
 }
