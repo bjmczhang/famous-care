@@ -41,7 +41,6 @@
 }
 
 .homeAbout {
-  padding: 0 5rem;
   margin: 3rem 0;
   .home__about__left {
     margin: 3rem 0;
@@ -51,7 +50,9 @@
     }
   }
   .home__about__right {
-    padding-left: 3rem;
+    @include responsive.Responsive(md) {
+      padding-left: 3rem;
+    }
     margin: 3rem 0;
     .home__about__right__title {
       font-weight: bold;
