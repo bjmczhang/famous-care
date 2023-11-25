@@ -109,7 +109,8 @@
   }
 
   .homeAbout {
-    padding: 0 5rem;
+    background-color: red;
+
     margin: 3rem 0;
     .home__about__left {
       margin: 3rem 0;
@@ -119,7 +120,10 @@
       }
     }
     .home__about__right {
-      padding-left: 3rem;
+      @include responsive.Responsive(md) {
+        padding-left: 3rem;
+      }
+
       margin: 3rem 0;
       .home__about__right__title {
         font-weight: bold;
@@ -150,5 +154,8 @@
 
 .invert__left {
   padding-left: 0 !important;
-  padding-right: 3rem !important;
+
+  @include responsive.Responsive(md) {
+    padding-right: 3rem !important;
+  }
 }
