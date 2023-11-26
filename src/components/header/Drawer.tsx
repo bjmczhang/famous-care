@@ -68,6 +68,9 @@ const DrawerNav = (props: props) => {
             component={Link}
             href={`/${item === "home" ? "" : item.replace(" ", "-")}`}
             className={style.drawerItemBtn}
+            onClick={() => {
+              props.setOpenDrawer(false);
+            }}
           >
             <ListItemIcon className={style.drawerItemIcon}>
               {iconItemDrawer[index]}
