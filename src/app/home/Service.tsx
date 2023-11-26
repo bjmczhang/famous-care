@@ -12,6 +12,7 @@ type serviceItem = {
   image: StaticImageData;
   title: string;
   body: string;
+  url: string;
 };
 
 const Service = () => {
@@ -20,16 +21,19 @@ const Service = () => {
       image: img1,
       title: "Assist Personal Activity High",
       body: "At Famous Care, we offer personalized assistance with activities of daily living, including personal hygiene, dressing, grooming, and feeding. We understand the challenges you face, and we`&apos;`re here to help.",
+      url: "/services/personal",
     },
     {
       image: img2,
       title: "Assist-Life Stage, Transition",
       body: "Our team provides life transition planning, mentoring, peer support, and individual skill development. We assist with decision-making, daily planning, and budgeting, ensuring you`&apos;`re prepared for the journey ahead.",
+      url: "/services/life",
     },
     {
       image: img3,
       title: "Assist-Travel/Transport",
       body: "Our safe and convenient transport services make it easy for you to reach work, school, shopping centers, medical appointments, and social outings. Choose from weekly or daily trips for greater mobility and independence.",
+      url: "/services/travel",
     },
   ];
 
@@ -74,7 +78,7 @@ const Service = () => {
                   {item.body}
                 </Typography>
                 <Link
-                  href="#"
+                  href={item.url}
                   className={style.home__service__item__infoBox__link}
                 >
                   <Typography variant="body1">Get Details</Typography>
