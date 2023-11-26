@@ -137,7 +137,9 @@ const Navbar = (props: Props) => {
               </Link>
             ))}
           </Box>
-          <Button className={style.navbarBtn}>Consultant</Button>
+          <Button className={style.navbarBtn} href="/contact">
+            Consultant
+          </Button>
 
           <IconButton
             onClick={() => {

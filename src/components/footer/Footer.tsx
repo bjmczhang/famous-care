@@ -30,7 +30,12 @@ type contact = {
 };
 
 const Footer = () => {
-  const usefulLink = ["Home", "About Us", "Services", "Contact Us"];
+  const usefulLink = [
+    { text: "Home", url: "/" },
+    { text: "About Us", url: "/about-us" },
+    { text: "Services", url: "/services" },
+    { text: "Contact Us", url: "/contact" },
+  ];
   const contacts: contact[] = [
     {
       icon: <LocationOnIcon className={style.footer__column4__icon} />,
@@ -105,13 +110,13 @@ const Footer = () => {
             <Stack spacing={3}>
               {usefulLink.map((link: string, index: number) => (
                 <Link
-                  href="#"
+                  href={link.url}
                   key={`footer-useful-link-${index}`}
                   className={style.footer__column3__usefulLink}
                 >
                   <Stack direction="row" alignItems="center" spacing={1}>
                     <ArrowRightAltIcon />
-                    <Typography variant="body1">{link}</Typography>
+                    <Typography variant="body1">{link.text}</Typography>
                   </Stack>
                 </Link>
               ))}

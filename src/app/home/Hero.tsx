@@ -26,8 +26,12 @@ const Hero = () => {
           justifyContent="center"
           flexWrap="wrap"
         >
-          <Button className={style.homeHeroBtn1}>Contact us</Button>
-          <Button className={style.homeHeroBtn2}>Discover</Button>
+          <Button className={style.homeHeroBtn1} href="/contact">
+            Contact us
+          </Button>
+          <Button className={style.homeHeroBtn2} href="/services">
+            Discover
+          </Button>
         </Stack>
       </Box>
     </Box>
