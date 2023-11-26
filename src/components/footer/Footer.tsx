@@ -108,18 +108,20 @@ const Footer = () => {
             <Typography variant="h5">Useful Links</Typography>
             <Divider className={style.footer__divider} />
             <Stack spacing={3}>
-              {usefulLink.map((link: string, index: number) => (
-                <Link
-                  href={link.url}
-                  key={`footer-useful-link-${index}`}
-                  className={style.footer__column3__usefulLink}
-                >
-                  <Stack direction="row" alignItems="center" spacing={1}>
-                    <ArrowRightAltIcon />
-                    <Typography variant="body1">{link.text}</Typography>
-                  </Stack>
-                </Link>
-              ))}
+              {usefulLink.map(
+                (link: { text: string; url: string }, index: number) => (
+                  <Link
+                    href={link.url}
+                    key={`footer-useful-link-${index}`}
+                    className={style.footer__column3__usefulLink}
+                  >
+                    <Stack direction="row" alignItems="center" spacing={1}>
+                      <ArrowRightAltIcon />
+                      <Typography variant="body1">{link.text}</Typography>
+                    </Stack>
+                  </Link>
+                )
+              )}
             </Stack>
           </Grid>
           <Grid item md={4} sm={6} xs={12} className={style.footer__column4}>
