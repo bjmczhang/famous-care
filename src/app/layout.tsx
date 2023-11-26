@@ -10,7 +10,7 @@ import Navbar from "@/components/header/Navbar";
 import Footer from "@/components/footer/Footer";
 
 export const metadata: Metadata = {
-  title: "Industrial",
+  title: "famous care",
   description: "Nextjs + MUI + SASS + CSS BEM",
 };
 
