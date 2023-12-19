@@ -108,6 +108,87 @@ const Personal = () => {
               <Grid item md={6} xs={12} className={style.home__about__left}>
                 <Image
                   className={style.home__about__image}
+                  src={image1}
+                  alt=""
+                />
+              </Grid>
+              <Grid item md={6} xs={12} className={style.home__about__right}>
+                <Typography
+                  variant="body1"
+                  className={style.home__about__right__body}
+                >
+                  7. Community Nursing Care Registered and trained nurses
+                  deliver top-notch care in the comfort of your home. We
+                  collaborate closely with your healthcare team and offer
+                  support for complex issues like continence assessment,
+                  catheter care, medication management, and wound care. <br />{" "}
+                  <br />
+                  <br /> <br />
+                  8. Daily Task/Shared Living Let us assist with daily tasks
+                  such as cooking, cleaning, shopping, and household
+                  maintenance. Customize this service to your NDIS plan by
+                  discussing your needs with our support coordinator or NDIS
+                  planner. <br /> <br />
+                  <br /> <br />
+                  9. Innovative Community Participation Join our Innovative
+                  Community Participation Program, designed to enhance your
+                  community engagement and employment opportunities. Our skilled
+                  practitioners will help you expand your horizons.
+                </Typography>
+
+                {/* <Button
+                endIcon={<SendIcon />}
+                className={style.home__about__right__btn}
+              >
+                Get a Quote
+              </Button> */}
+              </Grid>
+            </Grid>
+            <Grid container alignItems="center">
+              <Grid
+                item
+                md={6}
+                xs={12}
+                className={style.home__about__right + " " + style.invert__left}
+              >
+                <Typography
+                  variant="body1"
+                  className={style.home__about__right__body}
+                >
+                  10. Development Life Skills Gain valuable life skills through
+                  our specialized training programs. We focus on personal
+                  development, independence, and community involvement. Learn to
+                  use public transport, develop community skills, and master
+                  day-to-day living activities. <br /> <br />
+                  11. Household Tasks If daily responsibilities like cooking,
+                  gardening, and cleaning pose challenges, our team is here to
+                  assist. These services are often included in NDIS support
+                  plans to ensure your home runs smoothly. <br /> <br />
+                  12. Group/Centre Activities Join us for center-based and group
+                  activities that promote socialization and skill development.
+                  Our dedicated support workers facilitate workshops and group
+                  activities, encouraging you to engage and participate.
+                </Typography>
+
+                {/* <Button
+                endIcon={<SendIcon />}
+                className={style.home__about__right__btn}
+              >
+                Get a Quote
+              </Button> */}
+              </Grid>
+              <Grid item md={6} xs={12} className={style.home__about__left}>
+                <Image
+                  className={style.home__about__image}
+                  src={image2}
+                  alt=""
+                />
+              </Grid>
+            </Grid>
+            <Grid container alignItems="center">
+              <Grid item md={6} xs={12} className={style.home__about__left}>
+                <Image
+                  className={style.home__about__image}
                   src={image9}
                   alt=""
                 />
