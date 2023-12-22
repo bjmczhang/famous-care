@@ -144,7 +144,7 @@ const Footer = () => {
         </Grid>
         <Grid container className={style.copyright}>
           <Typography>
-            Copyright © famouscare | Powered by famouscare
+            Copyright © famouscare | Designed by Leebak Design
           </Typography>
         </Grid>
       </Container>
