@@ -28,7 +28,7 @@ const Contact = () => {
   const contacts: contact[] = [
     {
       icon: <LocationOnIcon className={style.footer__column4__icon} />,
-      text: "famous care address",
+      text: "8 Palma court frankston south,Vic 3199",
     },
     {
       icon: <PhoneIcon className={style.footer__column4__icon} />,
