@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <Box className={style.home}>
       <Box className={style.banner}>
-        <Typography variant="h2" className={style.bannerTitle}>
+        <Typography variant="h4" className={style.bannerTitle}>
           Services
         </Typography>
       </Box>

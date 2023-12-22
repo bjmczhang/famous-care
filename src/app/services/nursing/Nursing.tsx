@@ -18,7 +18,7 @@ const Nursing = () => {
   return (
     <Box className={style.about}>
       <Box className={style.banner}>
-        <Typography variant="h2" className={style.bannerTitle}>
+        <Typography variant="h4" className={style.bannerTitle}>
           Nursing Services
         </Typography>
       </Box>

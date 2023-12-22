@@ -11,7 +11,7 @@ const About = () => {
   return (
     <Box className={style.about}>
       <Box className={style.banner}>
-        <Typography variant="h1" className={style.bannerTitle}>
+        <Typography variant="h4" className={style.bannerTitle}>
           About us
         </Typography>
       </Box>

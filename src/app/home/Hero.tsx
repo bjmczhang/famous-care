@@ -8,7 +8,7 @@ const Hero = () => {
     <Box className={style.homeHero}>
       <HeroBg />
       <Box>
-        <Typography variant="h3" className={style.homeHeroTitle}>
+        <Typography variant="h4" className={style.homeHeroTitle}>
           Welcome to Famous Care - Empowering Lives
         </Typography>
         <Typography variant="body1" className={style.homeHeroBody}>

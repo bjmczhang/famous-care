@@ -47,7 +47,7 @@ const Contact = () => {
   return (
     <Box className={style.contact}>
       <Box className={style.banner}>
-        <Typography variant="h1" className={style.bannerTitle}>
+        <Typography variant="h4" className={style.bannerTitle}>
           Contact us
         </Typography>
       </Box>
