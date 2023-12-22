@@ -132,7 +132,8 @@ const Navbar = (props: Props) => {
                 }}
               >
                 <Typography className={style.navbarLink} variant="body2">
-                  {link.charAt(0).toUpperCase() + link.slice(1).toLowerCase()}
+                  {/* {link.charAt(0).toUpperCase() + link.slice(1).toLowerCase()} */}
+                  {link.toUpperCase()}
                 </Typography>
               </Link>
             ))}

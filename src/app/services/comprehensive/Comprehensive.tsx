@@ -19,7 +19,7 @@ const Comprehensive = () => {
     <Box className={style.about}>
       <Box className={style.banner}>
         <Typography variant="h2" className={style.bannerTitle}>
-          Comprehensive Tracheotomy/Laryngectomy Care Services
+          Tracheotomy/Laryngectomy Care Services
         </Typography>
       </Box>
       <Container>

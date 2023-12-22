@@ -32,7 +32,7 @@ const Contact = () => {
     },
     {
       icon: <PhoneIcon className={style.footer__column4__icon} />,
-      text: "(61) 401 234 567",
+      text: "+61 434 620 028",
     },
     {
       icon: <EmailIcon className={style.footer__column4__icon} />,

@@ -87,7 +87,7 @@ const DrawerNav = (props: props) => {
             <PhoneIcon />
           </ListItemIcon>
           <ListItemText
-            primary="Call - 1300 552 052"
+            primary="Call - +61 434 620 028"
             className={style.drawerItemText}
           />
         </ListItemButton>

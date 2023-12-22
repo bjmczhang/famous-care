@@ -45,7 +45,7 @@ const Service = () => {
     },
     {
       image: img5,
-      title: "Comprehensive Tracheotomy/Laryngectomy Care Services",
+      title: "Tracheotomy/Laryngectomy Care Services",
       body: "Our dedicated nursing services go beyond standard care to ensure the well-being and comfort of our clients.",
       url: "/services/comprehensive",
     },
