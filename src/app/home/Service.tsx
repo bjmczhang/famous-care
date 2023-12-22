@@ -5,6 +5,8 @@ import Link from "next/link";
 import img1 from "/public/images/service_01.jpg";
 import img2 from "/public/images/service_02.jpg";
 import img3 from "/public/images/service_03.jpg";
+import img4 from "/public/images/service_04.jpg";
+import img5 from "/public/images/service_05.jpg";
 import Image from "next/image";
 import { StaticImageData } from "next/image";
 
@@ -35,6 +37,18 @@ const Service = () => {
       body: "Our safe and convenient transport services make it easy for you to reach work, school, shopping centers, medical appointments, and social outings. Choose from weekly or daily trips for greater mobility and independence.",
       url: "/services/travel",
     },
+    {
+      image: img4,
+      title: "Nursing Services",
+      body: "Our dedicated team of highly skilled nurses is committed to providing exceptional care tailored to your unique need 24/7 Nursing Services",
+      url: "/services/nursing",
+    },
+    {
+      image: img5,
+      title: "Comprehensive Tracheotomy/Laryngectomy Care Services",
+      body: "Our dedicated nursing services go beyond standard care to ensure the well-being and comfort of our clients.",
+      url: "/services/comprehensive",
+    },
   ];
 
   return (
@@ -61,29 +75,30 @@ const Service = () => {
               xs={12}
               className={style.home__service__item}
             >
-              <Box className={style.home__service__item__mediaBox}>
-                <Image src={item.image} alt="" />
-              </Box>
-              <Box className={style.home__service__item__infoBox}>
-                <Typography
-                  variant="h5"
-                  className={style.home__service__item__infoBox__title}
-                >
-                  {item.title}
-                </Typography>
-                <Typography
-                  variant="body1"
-                  className={style.home__service__item__infoBox__body}
-                >
-                  {item.body}
-                </Typography>
-                <Link
-                  href={item.url}
-                  className={style.home__service__item__infoBox__link}
-                >
-                  <Typography variant="body1">Get Details</Typography>
-                </Link>
-              </Box>
+              <Link
+                href={item.url}
+                className={style.home__service__item__infoBox__link}
+              >
+                <Box className={style.home__service__item__mediaBox}>
+                  <Image src={item.image} alt="" />
+                </Box>
+                <Box className={style.home__service__item__infoBox}>
+                  <Typography
+                    variant="h5"
+                    className={style.home__service__item__infoBox__title}
+                  >
+                    {item.title}
+                  </Typography>
+                  <Typography
+                    variant="body1"
+                    className={style.home__service__item__infoBox__body}
+                  >
+                    {item.body}
+                  </Typography>
+                  {/* 
+                  <Typography variant="body1">Get Details</Typography> */}
+                </Box>
+              </Link>
             </Grid>
           ))}
         </Grid>
