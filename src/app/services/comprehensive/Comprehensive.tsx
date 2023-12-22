@@ -48,8 +48,8 @@ const Comprehensive = () => {
                   At Famouscare, we understand the unique needs of individuals
                   requiring tracheotomy or laryngectomy care. Our dedicated
                   nursing services go beyond standard care to ensure the
-                  well-being and comfort of our clients. Here's a glimpse into
-                  our specialized services:
+                  well-being and comfort of our clients. Here&apos;s a glimpse
+                  into our specialized services:
                   <br />
                   <br />• Expert Tracheostomy Care: <br />
                   <br />• Our skilled nurses are trained to provide meticulous
