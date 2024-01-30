@@ -53,11 +53,6 @@ const Nursing = () => {
                   services. Our team is available 24/7, ensuring you receive
                   professional and compassionate care whenever you need it.
                   <br />
-                  <br />
-                  Receive expert care in the comfort of your home with our
-                  specialized at-home ventilator and BiPAP management services.
-                  Our skilled nurses ensure optimal respiratory care for
-                  patients with diverse needs.
                 </Typography>
 
                 {/* <Button
