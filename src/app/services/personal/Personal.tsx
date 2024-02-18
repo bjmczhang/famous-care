@@ -205,21 +205,28 @@ const Personal = () => {
                   variant="body1"
                   className={style.home__about__right__body}
                 >
-                  1. Assessment: We begin with a thorough assessment of your
-                  needs. Our team works closely with you and your healthcare
-                  professionals to create a personalized care plan.
+                  <span className={style.boldText}>Assessment: </span>We begin
+                  with a thorough assessment of your needs. Our team works
+                  closely with you and your healthcare professionals to create a
+                  personalized care plan.
                   <br /> <br />
-                  2. Flexible Scheduling: You can schedule assistance according
-                  to your convenience. Whether it&apos;s daily, weekly, or as
-                  needed, we&apos;re here to accommodate your schedule.
+                  <span className={style.boldText}>Flexible Scheduling: </span>
+                  You can schedule assistance according to your convenience.
+                  Whether it&apos;s daily, weekly, or as needed, we&apos;re here
+                  to accommodate your schedule.
                   <br /> <br />
-                  3. Qualified Caregivers: Our caregivers are trained,
-                  experienced, and compassionate individuals who are dedicated
-                  to enhancing your quality of life.
+                  <span className={style.boldText}>
+                    The commencement of the services as per the care plan.
+                  </span>{" "}
+                  Our expert staff will meet you at your place for your
+                  assistance.
                   <br /> <br />
-                  4. Continuous Communication: We maintain open communication
-                  with you and your support network to ensure your needs are met
-                  and any adjustments to the care plan are made promptly.
+                  <span className={style.boldText}>
+                    Continuous Communication:{" "}
+                  </span>
+                  We maintain open communication with you and your support
+                  network to ensure your needs are met and any adjustments to
+                  the care plan are made promptly.
                 </Typography>
 
                 {/* <Button

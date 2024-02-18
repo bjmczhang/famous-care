@@ -23,7 +23,7 @@ const Topbar = () => {
         <Stack direction="row" spacing={6}>
           <Stack direction="row" spacing={2}>
             <LocalPhoneIcon />
-            <Typography>+61 434 620 028</Typography>
+            <Typography>0466274838 or 0434620028</Typography>
           </Stack>
           <Stack direction="row" spacing={2}>
             <EmailIcon />

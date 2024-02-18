@@ -45,21 +45,26 @@ const Life = () => {
                   variant="body1"
                   className={style.home__about__right__body}
                 >
-                  1. Life Transition Planning: Our experienced team assists you
-                  in planning and navigating major life transitions. Whether
-                  you&apos;re transitioning from school to work, moving to a new
-                  living arrangement, or facing other significant life changes,
-                  we&apos;ll help you create a well-defined plan.
+                  <span className={style.boldText}>
+                    Life Transition Planning:
+                  </span>{" "}
+                  Our experienced team assists you in planning and navigating
+                  major life transitions. Whether you&apos;re transitioning from
+                  school to work, moving to a new living arrangement, or facing
+                  other significant life changes, we&apos;ll help you create a
+                  well-defined plan.
                   <br />
-                  <br /> 2. Mentoring: We provide personalized mentoring to
-                  guide you through life&apos;s transitions. Our mentors offer
-                  valuable insights, share their experiences, and provide advice
-                  to help you make informed decisions. <br />
-                  <br /> 3. Peer Support: Join our peer support groups, where
-                  you can connect with individuals who have gone through similar
-                  transitions. This creates a supportive community where you can
-                  share experiences, learn from others, and build a strong
-                  network. <br />
+                  <br /> <span className={style.boldText}>Mentoring: </span>We
+                  provide personalized mentoring to guide you through
+                  life&apos;s transitions. Our mentors offer valuable insights,
+                  share their experiences, and provide advice to help you make
+                  informed decisions. <br />
+                  <br /> <span className={style.boldText}>Peer Support: </span>
+                  Join our peer support groups, where you can connect with
+                  individuals who have gone through similar transitions. This
+                  creates a supportive community where you can share
+                  experiences, learn from others, and build a strong network.{" "}
+                  <br />
                 </Typography>
 
                 {/* <Button
@@ -81,18 +86,27 @@ const Life = () => {
                   variant="body1"
                   className={style.home__about__right__body}
                 >
-                  4. Individual Skill Development: We focus on enhancing your
-                  individual skills to ensure you&apos;re well-prepared for the
-                  journey ahead. This includes developing decision-making
-                  skills, time management, and problem-solving abilities. <br />
-                  <br /> 5. Daily Planning: Effective daily planning is
-                  essential for a smooth transition. Our team will work with you
-                  to create daily routines and schedules that align with your
-                  goals and aspirations. <br /> <br />
-                  6. Budgeting Assistance: Managing finances is a crucial aspect
-                  of any transition. We provide guidance on budgeting, financial
-                  planning, and accessing available resources to ensure
-                  financial stability during your life stage changes.
+                  <span className={style.boldText}>
+                    Individual Skill Development:{" "}
+                  </span>
+                  We focus on enhancing your individual skills to ensure
+                  you&apos;re well-prepared for the journey ahead. This includes
+                  developing decision-making skills, time management, and
+                  problem-solving abilities. <br />
+                  <br /> <span className={style.boldText}>
+                    Daily Planning:
+                  </span>{" "}
+                  Effective daily planning is essential for a smooth transition.
+                  Our team will work with you to create daily routines and
+                  schedules that align with your goals and aspirations. <br />{" "}
+                  <br />
+                  <span className={style.boldText}>
+                    Budgeting Assistance:{" "}
+                  </span>{" "}
+                  Managing finances is a crucial aspect of any transition. We
+                  provide guidance on budgeting, financial planning, and
+                  accessing available resources to ensure financial stability
+                  during your life stage changes.
                 </Typography>
 
                 {/* <Button
@@ -130,20 +144,25 @@ const Life = () => {
                   variant="body1"
                   className={style.home__about__right__body}
                 >
-                  1. Assessment: We start by conducting a thorough assessment of
-                  your specific life stage transition needs. This assessment
-                  helps us tailor our support to your unique circumstances.{" "}
-                  <br /> <br />
-                  2. Personalized Planning: Based on the assessment, we create a
-                  personalized transition plan that outlines the steps, goals,
-                  and timeline for your transition. <br /> <br />
-                  3. Ongoing Support: Our team provides continuous support
-                  throughout your transition journey. We are always available to
-                  address your questions, concerns, and provide guidance. <br />{" "}
-                  <br />
-                  4. Peer Interaction: Participation in peer support groups and
-                  interactions with mentors will be encouraged, fostering a
-                  sense of community and shared experiences.
+                  <span className={style.boldText}>Assessment: </span>We start
+                  by conducting a thorough assessment of your specific life
+                  stage transition needs. This assessment helps us tailor our
+                  support to your unique circumstances. <br /> <br />
+                  <span className={style.boldText}>
+                    {" "}
+                    Personalized Planning:
+                  </span>{" "}
+                  Based on the assessment, we create a personalized transition
+                  plan that outlines the steps, goals, and timeline for your
+                  transition. <br /> <br />
+                  <span className={style.boldText}> Ongoing Support: </span>Our
+                  team provides continuous support throughout your transition
+                  journey. We are always available to address your questions,
+                  concerns, and provide guidance. <br /> <br />
+                  <span className={style.boldText}>Peer Interaction: </span>
+                  Participation in peer support groups and interactions with
+                  mentors will be encouraged, fostering a sense of community and
+                  shared experiences.
                 </Typography>
 
                 {/* <Button
