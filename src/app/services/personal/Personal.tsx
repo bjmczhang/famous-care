@@ -45,14 +45,18 @@ const Personal = () => {
                   variant="body1"
                   className={style.home__about__right__body}
                 >
-                  1. Personal Hygiene Assistance: Our trained caregivers are
-                  here to assist with tasks such as bathing, grooming, and
-                  maintaining personal hygiene, ensuring your comfort and
-                  well-being. <br /> <br />
-                  2. Dressing and Clothing Assistance: We understand the
-                  importance of feeling confident in your appearance. Our team
-                  can help with dressing and choosing outfits that suit your
-                  style and preferences.
+                  <span className={style.boldText}>
+                    Personal Hygiene Assistance:{" "}
+                  </span>
+                  Our trained caregivers are here to assist with tasks such as
+                  bathing, grooming, and maintaining personal hygiene, ensuring
+                  your comfort and well-being. <br /> <br />
+                  <span className={style.boldText}>
+                    Dressing and Clothing Assistance:{" "}
+                  </span>
+                  We understand the importance of feeling confident in your
+                  appearance. Our team can help with dressing and choosing
+                  outfits that suit your style and preferences.
                 </Typography>
 
                 {/* <Button
@@ -74,19 +78,20 @@ const Personal = () => {
                   variant="body1"
                   className={style.home__about__right__body}
                 >
-                  3. Feeding Assistance: Enjoying a balanced meal is essential
-                  for your health. We provide feeding assistance to ensure you
-                  receive proper nutrition while accommodating your dietary
-                  needs.
+                  <span className={style.boldText}>Feeding Assistance: </span>
+                  Enjoying a balanced meal is essential for your health. We
+                  provide feeding assistance to ensure you receive proper
+                  nutrition while accommodating your dietary needs.
                   <br /> <br />
-                  4. Mobility Support: If you face mobility challenges,
-                  we&apos;re here to assist you in moving around safely, whether
-                  it&apos;s transferring from a bed to a wheelchair or moving
-                  within your home.
+                  <span className={style.boldText}>Mobility Support: </span>If
+                  you face mobility challenges, we&apos;re here to assist you in
+                  moving around safely, whether it&apos;s transferring from a
+                  bed to a wheelchair or moving within your home.
                   <br /> <br />
-                  5. Compassionate Care: Our caregivers not only assist with
-                  physical tasks but also offer emotional support,
-                  companionship, and a friendly face to brighten your day.
+                  <span className={style.boldText}>Compassionate Care: </span>
+                  Our caregivers not only assist with physical tasks but also
+                  offer emotional support, companionship, and a friendly face to
+                  brighten your day.
                 </Typography>
 
                 {/* <Button
@@ -117,23 +122,30 @@ const Personal = () => {
                   variant="body1"
                   className={style.home__about__right__body}
                 >
-                  7. Community Nursing Care Registered and trained nurses
-                  deliver top-notch care in the comfort of your home. We
-                  collaborate closely with your healthcare team and offer
+                  <span className={style.boldText}>
+                    Community Nursing Care Registered and trained nurses deliver
+                    top-notch care in the comfort of your home.
+                  </span>{" "}
+                  We collaborate closely with your healthcare team and offer
                   support for complex issues like continence assessment,
                   catheter care, medication management, and wound care. <br />{" "}
                   <br />
                   <br /> <br />
-                  8. Daily Task/Shared Living Let us assist with daily tasks
-                  such as cooking, cleaning, shopping, and household
-                  maintenance. Customize this service to your NDIS plan by
-                  discussing your needs with our support coordinator or NDIS
-                  planner. <br /> <br />
+                  <span className={style.boldText}>
+                    Daily Task/Shared Living Let us assist with daily tasks such
+                    as cooking, cleaning, shopping, and household maintenance.
+                  </span>{" "}
+                  Customize this service to your NDIS plan by discussing your
+                  needs with our support coordinator or NDIS planner. <br />{" "}
+                  <br />
                   <br /> <br />
-                  9. Innovative Community Participation Join our Innovative
-                  Community Participation Program, designed to enhance your
-                  community engagement and employment opportunities. Our skilled
-                  practitioners will help you expand your horizons.
+                  <span className={style.boldText}>
+                    Innovative Community Participation{" "}
+                  </span>{" "}
+                  Join our Innovative Community Participation Program, designed
+                  to enhance your community engagement and employment
+                  opportunities. Our skilled practitioners will help you expand
+                  your horizons.
                 </Typography>
 
                 {/* <Button
@@ -155,19 +167,26 @@ const Personal = () => {
                   variant="body1"
                   className={style.home__about__right__body}
                 >
-                  10. Development Life Skills Gain valuable life skills through
-                  our specialized training programs. We focus on personal
-                  development, independence, and community involvement. Learn to
-                  use public transport, develop community skills, and master
-                  day-to-day living activities. <br /> <br />
-                  11. Household Tasks If daily responsibilities like cooking,
-                  gardening, and cleaning pose challenges, our team is here to
-                  assist. These services are often included in NDIS support
-                  plans to ensure your home runs smoothly. <br /> <br />
-                  12. Group/Centre Activities Join us for center-based and group
-                  activities that promote socialization and skill development.
-                  Our dedicated support workers facilitate workshops and group
-                  activities, encouraging you to engage and participate.
+                  <span className={style.boldText}>
+                    Development Life Skills{" "}
+                  </span>{" "}
+                  Gain valuable life skills through our specialized training
+                  programs. We focus on personal development, independence, and
+                  community involvement. Learn to use public transport, develop
+                  community skills, and master day-to-day living activities.{" "}
+                  <br /> <br />
+                  <span className={style.boldText}>Household Tasks</span> If
+                  daily responsibilities like cooking, gardening, and cleaning
+                  pose challenges, our team is here to assist. These services
+                  are often included in NDIS support plans to ensure your home
+                  runs smoothly. <br /> <br />
+                  <span className={style.boldText}>
+                    Group/Centre Activities{" "}
+                  </span>
+                  Join us for center-based and group activities that promote
+                  socialization and skill development. Our dedicated support
+                  workers facilitate workshops and group activities, encouraging
+                  you to engage and participate.
                 </Typography>
 
                 {/* <Button
