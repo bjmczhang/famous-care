@@ -8,13 +8,22 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import PinterestIcon from "@mui/icons-material/Pinterest";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import EmailIcon from "@mui/icons-material/Email";
+import Link from "next/link";
 
 const Topbar = () => {
   const socialIcon = [
-    <FacebookIcon className={style.topbarIcon} key="facebook" />,
-    <TwitterIcon className={style.topbarIcon} key="twitter" />,
-    <InstagramIcon className={style.topbarIcon} key="instagram" />,
-    <PinterestIcon className={style.topbarIcon} key="pinterest" />,
+    <Link
+      href="https://www.facebook.com/profile.php?id=61555811183841"
+      key="fb"
+    >
+      <FacebookIcon className={style.topbarIcon} />
+    </Link>,
+    <Link
+      href="https://www.instagram.com/famouscare_?igsh=dDl3dTUycXpnaXJh"
+      key="ig"
+    >
+      <InstagramIcon className={style.topbarIcon} />
+    </Link>,
   ];
 
   return (

@@ -53,7 +53,11 @@ const Comprehensive = () => {
                   well-being and comfort of our clients. Here&apos;s a glimpse
                   into our specialized services:
                   <br />
-                  <br />• Expert Tracheostomy Care: <br />
+                  <br />•{" "}
+                  <span className={style.boldText}>
+                    Expert Tracheostomy Care:{" "}
+                  </span>
+                  <br />
                   <br />• Our skilled nurses are trained to provide meticulous
                   tracheostomy care, managing the tracheostomy tube, maintaining
                   cleanliness, and ensuring optimal ventilation for improved
@@ -62,9 +66,13 @@ const Comprehensive = () => {
                   comprehensive support, addressing speech and communication
                   needs, as well as managing the stoma with expertise.
                   <br />
-                  <br />• Respiratory Assistance: We excel in at-home ventilator
-                  and BIPAP management, ensuring seamless respiratory support
-                  tailored to individual requirements.
+                  <br />•{" "}
+                  <span className={style.boldText}>
+                    Respiratory Assistance:{" "}
+                  </span>
+                  We excel in at-home ventilator and BIPAP management, ensuring
+                  seamless respiratory support tailored to individual
+                  requirements.
                 </Typography>
 
                 {/* <Button
@@ -86,12 +94,13 @@ const Comprehensive = () => {
                   variant="body1"
                   className={style.home__about__right__body}
                 >
-                  • Medication Administration: Our experienced nurses handle
-                  various medication administration methods, including oral,
-                  subcutaneous, intravenous, and intramuscular Wound Care
-                  Excellence: Beyond basic wound care, our services extend to
-                  complex wound management, incorporating advanced techniques
-                  such as negative pressure wound therapy for optimal healing.
+                  • <span className={style.boldText}>Administration:</span> Our
+                  experienced nurses handle various medication administration
+                  methods, including oral, subcutaneous, intravenous, and
+                  intramuscular Wound Care Excellence: Beyond basic wound care,
+                  our services extend to complex wound management, incorporating
+                  advanced techniques such as negative pressure wound therapy
+                  for optimal healing.
                 </Typography>
 
                 {/* <Button

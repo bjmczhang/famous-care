@@ -66,10 +66,14 @@ const Footer = () => {
               opportunity to lead a fulfilling life.
             </Typography>
             <Stack direction="row" spacing={3}>
-              <TwitterIcon className={style.footer__column1__social} />
-              <FacebookIcon className={style.footer__column1__social} />
-              <InstagramIcon className={style.footer__column1__social} />
-              <PinterestIcon className={style.footer__column1__social} />
+              {/* <TwitterIcon className={style.footer__column1__social} /> */}
+              <Link href="https://www.facebook.com/profile.php?id=61555811183841">
+                <FacebookIcon className={style.footer__column1__social} />
+              </Link>
+              <Link href="https://www.instagram.com/famouscare_?igsh=dDl3dTUycXpnaXJh">
+                <InstagramIcon className={style.footer__column1__social} />
+              </Link>
+              {/* <PinterestIcon className={style.footer__column1__social} /> */}
             </Stack>
           </Grid>
           {/* <Grid item md={3} sm={6} xs={12} className={style.footer__column2}>
