@@ -45,14 +45,14 @@ const Travel = () => {
                   variant="body1"
                   className={style.home__about__right__body}
                 >
-                  1. <b>Safe and Reliable Transportation </b>: Count on us for
-                  safe and reliable transportation services. We prioritize your
+                  <b>Safe and Reliable Transportation </b>: Count on us for safe
+                  and reliable transportation services. We prioritize your
                   safety and comfort, ensuring that you arrive at your
                   destination on time and with peace of mind.
                   <br /> <br />
-                  2. <b>Work and School Commutes </b>: Our transportation
-                  services make it hassle-free for you to get to work or school.
-                  Say goodbye to transportation barriers and embrace your daily
+                  <b>Work and School Commutes </b>: Our transportation services
+                  make it hassle-free for you to get to work or school. Say
+                  goodbye to transportation barriers and embrace your daily
                   routines with confidence.
                 </Typography>
 
@@ -75,17 +75,16 @@ const Travel = () => {
                   variant="body1"
                   className={style.home__about__right__body}
                 >
-                  3. <b>Shopping and Social Outings</b>: Enjoy the freedom to
+                  <b>Shopping and Social Outings</b>: Enjoy the freedom to
                   engage in shopping and social activities with ease. Our
                   service enables you to maintain an active and vibrant social
                   life. <br /> <br />
-                  4. <b>Medical Appointments </b>: We understand the importance
-                  of timely medical appointments. Our transport services ensure
-                  you never miss an important healthcare visit. <br /> <br />
-                  5. <b>Flexible Scheduling</b>: Choose from weekly or daily
-                  trips based on your specific needs and preferences. Our
-                  flexibility allows you to plan your outings and activities
-                  conveniently.
+                  <b>Medical Appointments </b>: We understand the importance of
+                  timely medical appointments. Our transport services ensure you
+                  never miss an important healthcare visit. <br /> <br />
+                  <b>Flexible Scheduling</b>: Choose from weekly or daily trips
+                  based on your specific needs and preferences. Our flexibility
+                  allows you to plan your outings and activities conveniently.
                 </Typography>
 
                 {/* <Button
