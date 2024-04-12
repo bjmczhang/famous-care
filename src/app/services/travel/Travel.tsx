@@ -123,25 +123,23 @@ const Travel = () => {
                   variant="body1"
                   className={style.home__about__right__body}
                 >
-                  1.<b> Booking</b>: Simply book your transportation with us.
-                  You can choose from weekly or daily trips, depending on your
+                  <b> Booking</b>: Simply book your transportation with us. You
+                  can choose from weekly or daily trips, depending on your
                   schedule and requirements.
                   <br /> <br />
-                  2. <b>Safe and Comfortable Vehicles</b>: Our vehicles are
+                  <b>Safe and Comfortable Vehicles</b>: Our vehicles are
                   well-maintained, safe, and comfortable, ensuring a pleasant
                   travel experience.
                   <br /> <br />
-                  3. <b>Professional Drivers</b>: Our experienced and
-                  professional drivers are dedicated to your safety and
-                  satisfaction.
+                  <b>Professional Drivers</b>: Our experienced and professional
+                  drivers are dedicated to your safety and satisfaction.
                   <br /> <br />
-                  4. <b>Punctuality</b>: We prioritize punctuality, ensuring
-                  that you arrive at your destination on time.
+                  <b>Punctuality</b>: We prioritize punctuality, ensuring that
+                  you arrive at your destination on time.
                   <br /> <br />
-                  5. <b>Independence</b>: Our
-                  &quot;Assist-Travel/Transport&quot; service is not just about
-                  reaching your destination; it&apos;s about gaining greater
-                  independence and control over your life.
+                  <b>Independence</b>: Our &quot;Assist-Travel/Transport&quot;
+                  service is not just about reaching your destination; it&apos;s
+                  about gaining greater independence and control over your life.
                 </Typography>
 
                 {/* <Button

@@ -130,13 +130,17 @@ const Nursing = () => {
                   management. Our nurses provide comprehensive care, including
                   blood sugar monitoring, insulin administration, and
                   educational support to empower patients in managing their
-                  condition. <b>Stoma Care and Continence Management</b>{" "}
-                  expertise and sensivity compassionate care in stoma and
-                  continence management.
+                  condition. <br />
+                  <br />
+                  <b>Stoma Care and Continence Management</b> expertise and
+                  sensivity compassionate care in stoma and continence
+                  management.
                   <br />
                   <br /> Our skilled nurses prioritize your comfort and dignity,
                   addressing specific needs in these areas with expertise and
-                  sensitivity. <b>Tube Feeding Assistance and Management</b> Our
+                  sensitivity.
+                  <br />
+                  <br /> <b>Tube Feeding Assistance and Management</b> Our
                   experienced nursing team offers dedicated assistance and well
                   doing. <br />
                   <br />
