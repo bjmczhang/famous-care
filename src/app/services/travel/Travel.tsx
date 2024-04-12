@@ -45,15 +45,15 @@ const Travel = () => {
                   variant="body1"
                   className={style.home__about__right__body}
                 >
-                  1. Safe and Reliable Transportation: Count on us for safe and
-                  reliable transportation services. We prioritize your safety
-                  and comfort, ensuring that you arrive at your destination on
-                  time and with peace of mind.
+                  1. <b>Safe and Reliable Transportation </b>: Count on us for
+                  safe and reliable transportation services. We prioritize your
+                  safety and comfort, ensuring that you arrive at your
+                  destination on time and with peace of mind.
                   <br /> <br />
-                  2. Work and School Commutes: Our transportation services make
-                  it hassle-free for you to get to work or school. Say goodbye
-                  to transportation barriers and embrace your daily routines
-                  with confidence.
+                  2. <b>Work and School Commutes </b>: Our transportation
+                  services make it hassle-free for you to get to work or school.
+                  Say goodbye to transportation barriers and embrace your daily
+                  routines with confidence.
                 </Typography>
 
                 {/* <Button
@@ -75,16 +75,17 @@ const Travel = () => {
                   variant="body1"
                   className={style.home__about__right__body}
                 >
-                  3. Shopping and Social Outings: Enjoy the freedom to engage in
-                  shopping and social activities with ease. Our service enables
-                  you to maintain an active and vibrant social life. <br />{" "}
-                  <br />
-                  4. Medical Appointments: We understand the importance of
-                  timely medical appointments. Our transport services ensure you
-                  never miss an important healthcare visit. <br /> <br />
-                  5. Flexible Scheduling: Choose from weekly or daily trips
-                  based on your specific needs and preferences. Our flexibility
-                  allows you to plan your outings and activities conveniently.
+                  3. <b>Shopping and Social Outings</b>: Enjoy the freedom to
+                  engage in shopping and social activities with ease. Our
+                  service enables you to maintain an active and vibrant social
+                  life. <br /> <br />
+                  4. <b>Medical Appointments </b>: We understand the importance
+                  of timely medical appointments. Our transport services ensure
+                  you never miss an important healthcare visit. <br /> <br />
+                  5. <b>Flexible Scheduling</b>: Choose from weekly or daily
+                  trips based on your specific needs and preferences. Our
+                  flexibility allows you to plan your outings and activities
+                  conveniently.
                 </Typography>
 
                 {/* <Button
@@ -122,23 +123,25 @@ const Travel = () => {
                   variant="body1"
                   className={style.home__about__right__body}
                 >
-                  1. Booking: Simply book your transportation with us. You can
-                  choose from weekly or daily trips, depending on your schedule
-                  and requirements.
+                  1.<b> Booking</b>: Simply book your transportation with us.
+                  You can choose from weekly or daily trips, depending on your
+                  schedule and requirements.
                   <br /> <br />
-                  2. Safe and Comfortable Vehicles: Our vehicles are
+                  2. <b>Safe and Comfortable Vehicles</b>: Our vehicles are
                   well-maintained, safe, and comfortable, ensuring a pleasant
                   travel experience.
                   <br /> <br />
-                  3. Professional Drivers: Our experienced and professional
-                  drivers are dedicated to your safety and satisfaction.
+                  3. <b>Professional Drivers</b>: Our experienced and
+                  professional drivers are dedicated to your safety and
+                  satisfaction.
                   <br /> <br />
-                  4. Punctuality: We prioritize punctuality, ensuring that you
-                  arrive at your destination on time.
+                  4. <b>Punctuality</b>: We prioritize punctuality, ensuring
+                  that you arrive at your destination on time.
                   <br /> <br />
-                  5. Independence: Our &quot;Assist-Travel/Transport&quot;
-                  service is not just about reaching your destination; it&apos;s
-                  about gaining greater independence and control over your life.
+                  5. <b>Independence</b>: Our
+                  &quot;Assist-Travel/Transport&quot; service is not just about
+                  reaching your destination; it&apos;s about gaining greater
+                  independence and control over your life.
                 </Typography>
 
                 {/* <Button
