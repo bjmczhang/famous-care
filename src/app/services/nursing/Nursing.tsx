@@ -74,8 +74,8 @@ const Nursing = () => {
                   variant="body1"
                   className={style.home__about__right__body}
                 >
-                  Medication Administration Trust our experienced nursing team
-                  for precise medication administration. We cover various
+                  <b>Medication Administration</b> Trust our experienced nursing
+                  team for precise medication administration. We cover various
                   routes, including oral, subcutaneous, intravenous, and
                   intramuscular, to guarantee safe and accurate delivery of
                   medications. <br />
