@@ -83,7 +83,7 @@ const Comprehensive = () => {
               </Button> */}
               </Grid>
             </Grid>
-            <Grid container alignItems="center">
+            {/* <Grid container alignItems="center">
               <Grid
                 item
                 md={6}
@@ -102,13 +102,6 @@ const Comprehensive = () => {
                   advanced techniques such as negative pressure wound therapy
                   for optimal healing.
                 </Typography>
-
-                {/* <Button
-                endIcon={<SendIcon />}
-                className={style.home__about__right__btn}
-              >
-                Get a Quote
-              </Button> */}
               </Grid>
               <Grid item md={6} xs={12} className={style.home__about__left}>
                 <Image
@@ -117,7 +110,7 @@ const Comprehensive = () => {
                   alt=""
                 />
               </Grid>
-            </Grid>
+            </Grid> */}
           </Container>
         </Box>
       </Container>

@@ -80,9 +80,9 @@ const Nursing = () => {
                   intramuscular, to guarantee safe and accurate delivery of
                   medications. <br />
                   <br />
-                  Complex Wound Care Management Our expertise extends to complex
-                  wound care, including advanced techniques At-Home Ventilator
-                  and BIPAP Management
+                  <b>Complex Wound Care</b> Management optimal recovery extends
+                  to complex wound care, including advanced techniques At-Home
+                  Ventilator and BIPAP Management
                 </Typography>
 
                 {/* <Button
@@ -125,23 +125,23 @@ const Nursing = () => {
                   (NPWT). We are dedicated to promoting efficient healing and
                   optimal recovery. <br />
                   <br />
-                  Diabetes Management Count on us for specialized diabetes
-                  management. Our nurses provide comprehensive care, including
-                  blood sugar monitoring, insulin administration, and
-                  educational support to empower patients in managing their
-                  condition. Stoma Care and Continence Management Experience
-                  compassionate care in stoma and continence management.
+                  Diabetes Management in managing their condition Stoma care and
+                  continence management for specialized diabetes management. Our
+                  nurses provide comprehensive care, including blood sugar
+                  monitoring, insulin administration, and educational support to
+                  empower patients in managing their condition. Stoma Care and
+                  Continence Management expertise and sensivity compassionate
+                  care in stoma and continence management.
                   <br />
                   <br /> Our skilled nurses prioritize your comfort and dignity,
                   addressing specific needs in these areas with expertise and
                   sensitivity. Tube Feeding Assistance and Management Our
-                  experienced nursing team offers dedicated assistance and
-                  management for tube feeding. <br />
+                  experienced nursing team offers dedicated assistance and well
+                  doing. <br />
                   <br />
                   We ensure patients receive proper nutrition tailored to their
                   individual requirements, promoting overall health and
-                  well-being. Contact us today to learn more about how our
-                  nursing services can meet your specific needs. Your health is
+                  well-being. Contact meet your specific needs. Your health is
                   our priority, and we are here to provide the highest quality
                   care.
                 </Typography>
