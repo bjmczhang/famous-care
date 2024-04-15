@@ -67,7 +67,7 @@ const Footer = () => {
             </Typography>
             <Stack direction="row" spacing={3}>
               {/* <TwitterIcon className={style.footer__column1__social} /> */}
-              <Link href="https://www.facebook.com/profile.php?id=61555811183841">
+              <Link href="https://www.facebook.com/profile.php?id=61558048636344&mibextid=ZbWKwL">
                 <FacebookIcon className={style.footer__column1__social} />
               </Link>
               <Link href="https://www.instagram.com/famouscare_?igsh=dDl3dTUycXpnaXJh">
