@@ -81,8 +81,10 @@ const Nursing = () => {
                   medications. <br />
                   <br />
                   <b>Complex Wound Care</b> Management optimal recovery extends
-                  to complex wound care, including advanced techniques At-Home
-                  Ventilator and BIPAP Management
+                  to complex wound care. Our expertise extends to complex wound
+                  care, including advanced techniques such as Negative Pressure
+                  Wound Therapy (NPWT). We are dedicated to promoting efficient
+                  healing and optimal recovery.
                 </Typography>
 
                 {/* <Button
@@ -120,11 +122,6 @@ const Nursing = () => {
                   variant="body1"
                   className={style.home__about__right__body}
                 >
-                  Our expertise extends to complex wound care, including
-                  advanced techniques such as Negative Pressure Wound Therapy
-                  (NPWT). We are dedicated to promoting efficient healing and
-                  optimal recovery. <br />
-                  <br />
                   <b>Diabetes Management</b> in managing their condition Stoma
                   care and continence management for specialized diabetes
                   management. Our nurses provide comprehensive care, including
