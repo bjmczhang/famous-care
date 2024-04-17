@@ -114,9 +114,7 @@ const Nursing = () => {
                 <Typography
                   variant="h5"
                   className={style.home__about__right__subTitle}
-                >
-                  How It Works:
-                </Typography>
+                ></Typography>
 
                 <Typography
                   variant="body1"
